@@ -1,0 +1,580 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
+
+
+
+* {
+	box-sizing: border-box;
+	font-family: 'Philosopher', sans-serif;
+}
+
+html, body {padding:0; margin:0;height: 100%;}
+
+body {
+	background-image: url(image/bg_body2.png);
+
+}
+
+header {
+	background-image: url(image/bghead.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 200px;
+	width: 100%;
+	border-top: 3px solid orange;
+
+}
+
+.main_box {
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	width: 1300px;
+	justify-content: center;
+}
+
+.logo1 {
+	display: flex;
+	width: 100px;
+	height: 200px;
+	margin: 0 auto;
+	justify-content:center ;
+	align-items: center;
+
+}
+
+.logo {
+
+	width: 150px;
+	height: 150px;
+
+
+}
+
+.soc_main {
+	display: flex;
+	position: absolute;
+	width: 100px;
+	right: 50px;
+	top: 15px;
+	justify-content: space-between;
+}
+
+.soc1 { 
+	width: 25px;
+	height: 25px;
+}
+
+.twitter {
+	transform: rotate(30deg);
+}
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 1300px;
+	margin: 0 auto;
+	font-size: 20px ;
+	text-align: center;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	background: red;
+	height: 55px;
+	align-items: center;
+
+
+}
+
+.menu {
+		text-decoration: none;
+		color: white;
+		width: 270px;
+		font-size: 26px;
+}
+
+.menu:hover {
+	color: gold;
+	transition: all .5s;
+}
+
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+	width: 1300px;
+	margin: 0 auto;
+	background: url(image/bg.png);
+	min-height: 91vh;
+
+}
+
+.menu_text {
+	position: relative;
+	display: flex;
+	width: 1300px;
+	height:90px ;
+	justify-content: center;
+	background: #f8f7ff;
+	top: 10px;
+	margin: 0 auto;
+}
+
+
+.title {
+	position: absolute;
+	font-size: 56px;
+	color: #b98d4b;
+	vertical-align: middle;
+	top: -25px;
+}
+
+.menu_block {
+	position: relative;
+	width: 1300px;
+	height: 900px;
+	display: flex;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.menu_chapter {
+	display: flex;
+	border-radius: 50%;
+	width: 300px;
+	height:200px ;
+
+}
+
+.menu_photo {
+position: absolute;
+border: 3px solid red;
+}
+
+
+
+/*поке*/
+.poke {
+	position: relative;
+	left: 500px;
+	background: cyan;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	transition: 0.2s;
+	margin: 0 auto;
+}
+
+.chapter_poke {
+	position: absolute;
+	display: flex;
+	left: 0px;
+	width:300px ;
+	height: 35px;
+	top: 135px;
+	background: gold;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.poke_text {
+	transition: all 0.2s ease;
+}
+
+.poke:hover {
+
+}
+
+.menu_chapter {
+	transition:all 0.5s ease;
+}
+
+.poke:hover p {
+	border-bottom: 2px solid red;
+	color: red;
+}
+
+.menu_photo {
+	height: 200px;
+	width: 300px;
+	transition: all 0.5s ease;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.menu_photo:hover .menu_chapter{
+	transform: scale(1.2);
+}
+.menu_photo:hover .chapter_poke{
+	transform: scale(1.2);
+}
+
+
+
+/*ХОЛОД*/
+.holod {
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	background: cyan;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	transition: 0.2s;
+}
+
+.chapter_holod {
+	position: absolute;
+	display: flex;
+	left: 0px;
+	width:300px ;
+	height: 35px;
+	top: 135px;
+	background: gold;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.holod_text {
+	transition: all 0.2s ease;
+}
+
+.holod:hover p {
+	border-bottom: 2px solid red;
+	color: red;
+}
+
+.menu_photo:hover .chapter_holod{
+	transform: scale(1.2);
+}
+
+/*ТЕПЛЫЕ*/
+.tepl {
+	display:flex;
+	position: absolute;
+	top: 420px;
+	left: 150px;
+	background: cyan;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	transition: 0.2s;
+	margin-top: 20px;
+}
+
+.chapter_tepl {
+	position: absolute;
+	display: flex;
+	left: 0px;
+	width:300px ;
+	height: 35px;
+	top: 135px;
+	background: gold;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.tepl_text {
+	transition: all 0.2s ease;
+}
+
+.tepl:hover p {
+	border-bottom: 2px solid red;
+	color: red;
+}
+
+.menu_photo:hover .chapter_tepl{
+	transform: scale(1.2);
+}
+
+/*СУПЫ*/
+.sypi {
+	display: flex;
+	position: absolute;
+	right: 150px;
+	background: cyan;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	transition: 0.2s;
+}
+
+.chapter_sypi {
+	position: absolute;
+	display: flex;
+	left: 0px;
+	width:300px ;
+	height: 35px;
+	top: 135px;
+	background: gold;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.sypi_text {
+	transition: all 0.2s ease;
+}
+
+.sypi:hover p {
+	border-bottom: 2px solid red;
+	color: red;
+}
+
+.menu_photo:hover .chapter_sypi{
+	transform: scale(1.2);
+}
+
+/*ГОРЯЧЕЕ*/
+.goryach {
+	position: absolute;
+	top: 440px;
+	right: 150px;
+	background: cyan;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	transition: 0.2s;
+}
+
+.chapter_goryach {
+	position: absolute;
+	display: flex;
+	left: 0px;
+	width:300px ;
+	height: 35px;
+	top: 135px;
+	background: gold;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.goryach_text {
+	transition: all 0.2s ease;
+}
+
+.goryach:hover p {
+	border-bottom: 2px solid red;
+	color: red;
+}
+
+.menu_photo:hover .chapter_goryach{
+	transform: scale(1.2);
+}
+
+/*САЛАТЫ*/
+.salat {
+	position: absolute;
+	top: 640px;
+	left: 500px;
+	background: cyan;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	transition: 0.2s;
+}
+
+.chapter_salat {
+	position: absolute;
+	display: flex;
+	left: 0px;
+	width:300px ;
+	height: 35px;
+	top: 135px;
+	background: gold;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+
+
+.salat_text {
+	transition: all 0.2s ease;
+}
+
+.salat:hover p {
+	border-bottom: 2px solid red;
+	color: red;
+}
+
+.menu_photo:hover .chapter_salat{
+	transform: scale(1.2);
+}
+
+/*ДЕСЕРТЫ*/
+.desert {
+	position: absolute;
+	top: 317px;
+	left: 500px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	transition: 0.2s;
+}
+
+.chapter_desert {
+	position: absolute;
+	display: flex;
+	left: 0px;
+	width:300px ;
+	height: 35px;
+	top: 135px;
+	background: gold;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.desert_text {
+	transition: all 0.2s ease;
+}
+
+.desert:hover p {
+	border-bottom: 2px solid red;
+	color: red;
+}
+
+.menu_photo:hover .chapter_desert{
+	transform: scale(1.2);
+}
+
+/*футер*/
+footer	{
+	height: 360px;
+	width: 100%;
+	background: #e99f86;
+	display: flex;
+}
+
+
+.foot_content {
+	position: relative;
+	width: 1300px;
+	height: 360px;
+	margin: 0 auto;
+}
+
+.logo2	{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	right: 100px;
+	top: 50px;
+}
+
+.logo_foot {
+	width: 200px;
+	height: 200px;
+	
+}
+
+.soc_footer {
+	position: absolute;
+	width: 30px;
+	height: 100px;
+	right: 50px;
+	top: 66px;
+}
+
+.soc2 {
+	width: 25px;
+	height: 25px;
+	margin: 0 auto;
+	transition: 0.8;
+	
+}
+
+
+
+
+
+.facebook {
+	margin-bottom: 10px;
+	height: 25px;
+	width: 30px;
+}
+
+.twitter2 {
+	width: 25px;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+.facebook:hover {
+	 transform: scale(1.1);
+	 cursor: pointer;
+
+}
+.inst:hover {
+	 transform: scale(1.1);
+	 cursor: pointer;
+}
+.twitter2:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.twitter:hover {
+	cursor: pointer;
+	transform: rotate(30deg);
+	transform: scale(1.1);
+}
+
+
+.time	{
+	display: flex;
+	height: 120px;
+	position: absolute;
+	left: 100px;
+	top: 66px;
+	font-size: 33px;
+	color: white;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.contact {
+	display: flex;
+	position: absolute;
+	left: 100px;
+	top: 248px;
+	font-size: 14px;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.cop {
+	position: absolute;
+	color: white;
+	right: 0px;
+	top: 248px;
+	right: 115px;
+}

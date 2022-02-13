@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
+
+
+
+* {
+	box-sizing: border-box;
+	font-family: 'Philosopher', sans-serif;
+}
+
+html, body {padding:0; margin:0;height: 100%;}
+
+body {
+	background-image: url(image/bg_body2.png);
+
+}
+
+header {
+	background-image: url(image/bghead.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 200px;
+	width: 100%;
+	border-top: 3px solid orange;
+
+}
+
+.main_box {
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	width: 1300px;
+	justify-content: center;
+}
+
+.logo1 {
+	display: flex;
+	width: 100px;
+	height: 200px;
+	margin: 0 auto;
+	justify-content:center ;
+	align-items: center;
+
+}
+
+.logo {
+
+	width: 150px;
+	height: 150px;
+
+
+}
+
+.soc_main {
+	display: flex;
+	position: absolute;
+	width: 100px;
+	right: 50px;
+	top: 15px;
+	justify-content: space-between;
+}
+
+.soc1 { 
+	width: 25px;
+	height: 25px;
+}
+
+.twitter {
+	transform: rotate(30deg);
+}
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 1300px;
+	margin: 0 auto;
+	font-size: 20px ;
+	text-align: center;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	background: red;
+	height: 55px;
+	align-items: center;
+
+
+}
+
+.menu {
+		text-decoration: none;
+		color: white;
+		width: 270px;
+		font-size: 26px;
+}
+
+.menu:hover {
+	color: gold;
+	transition: all .5s;
+}
+
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+	width: 1300px;
+	margin: 0 auto;
+	background: url(image/bg.png);
+	min-height: 91vh;
+
+}
+.info {
+	display: flex;
+	position: relative;
+	width: 1300px;
+	height: 800px;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.yandexcart {
+	position: absolute;
+	right: 70px;
+	border: 2px solid red;
+	top: 130px;
+}
+
+.rejim {
+position: absolute;
+width: 500px;
+left: 70px;
+top: 80px;
+font-size: 35px;
+line-height: 1.5;
+}
+
+.delivery {
+position: absolute;
+width: 500px;
+left: 70px;
+font-size: 35px;
+top: 260px;
+line-height: 1.5;
+}
+
+.info_adress {
+position: absolute;
+width: 500px;
+left: 70px;
+font-size: 24px;
+line-height: 1.5;
+top: 470px;
+}
+
+.info_contacts {
+position: absolute;
+width: 500px;
+left: 70px;
+font-size: 24px;
+line-height: 1.5;
+top: 550px;
+}
+
+/*футер*/
+.info_text {
+	position: relative;
+	display: flex;
+	width: 1300px;
+	height:90px ;
+	justify-content: center;
+	background: #f8f7ff;
+	top: 10px;
+	margin: 0 auto;
+}
+
+
+.title {
+	position: absolute;
+	font-size: 56px;
+	color: #b98d4b;
+	vertical-align: middle;
+	top: -25px;
+}
+footer	{
+	height: 360px;
+	width: 100%;
+	background: #e99f86;
+	display: flex;
+}
+
+
+.foot_content {
+	position: relative;
+	width: 1300px;
+	height: 360px;
+	margin: 0 auto;
+}
+
+.logo2	{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	right: 100px;
+	top: 50px;
+}
+
+.logo_foot {
+	width: 200px;
+	height: 200px;
+	
+}
+
+.soc_footer {
+	position: absolute;
+	width: 30px;
+	height: 100px;
+	right: 50px;
+	top: 66px;
+}
+
+.soc2 {
+	width: 25px;
+	height: 25px;
+	margin: 0 auto;
+	transition: 0.8;
+	
+}
+
+
+
+
+
+.facebook {
+	margin-bottom: 10px;
+	height: 25px;
+	width: 30px;
+}
+
+.twitter2 {
+	width: 25px;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+.facebook:hover {
+	 transform: scale(1.1);
+	 cursor: pointer;
+
+}
+.inst:hover {
+	 transform: scale(1.1);
+	 cursor: pointer;
+}
+.twitter2:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.twitter:hover {
+	cursor: pointer;
+	transform: rotate(30deg);
+	transform: scale(1.1);
+}
+
+
+.time	{
+	display: flex;
+	height: 120px;
+	position: absolute;
+	left: 100px;
+	top: 66px;
+	font-size: 33px;
+	color: white;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.contact {
+	display: flex;
+	position: absolute;
+	left: 100px;
+	top: 248px;
+	font-size: 14px;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.cop {
+	position: absolute;
+	color: white;
+	right: 0px;
+	top: 248px;
+	right: 115px;
+}
