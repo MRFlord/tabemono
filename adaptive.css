@@ -1,0 +1,154 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+	header {
+		max-width:1200px;
+	}
+	.main_box {
+		width: 900px;
+	}
+
+	.logo1 {
+	margin: 0 auto;
+	}
+	nav {
+		width: 1050px;
+		margin-left: 0px
+	}
+	.content {
+	width: 1050px;
+	margin-left: 0px;
+}
+.infa {
+	width: 1050px;
+	margin-left: 0px
+	}
+
+.info_text {
+	width: 400px;
+	top: 30px;
+	font-size: 21px;
+	right: 60px;
+}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+	
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+	
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+	header {
+		min-width:220vw;
+	}
+	.main_box {
+		width: 900px;
+	}
+
+	.logo1 {
+	margin: 0 auto;
+	}
+	nav {
+		min-width: 170vw;
+		margin-left: 0px
+	}
+	.menu {
+		margin-right: 80px;
+		font-size: 20px;
+	}
+
+	.akcii {
+		width: 400px;
+	}
+
+.title {
+	font-size: 40px;
+	margin-left: 100px;
+}
+
+.akcii_img {
+	height: 1000px;
+}	
+.akcii_photo {
+	position: absolute;
+}
+.akcii_main {
+	height: 1000px;
+	width: 400px
+}
+.akc1 {
+left: -200px;
+}
+
+.akc2 {
+right: -200px;
+}
+
+.akc3 {
+left:-200px;
+top: 450px;
+}
+
+.akc4 {
+right: -200px;
+top: 450px;
+}
+
+.akcii_text {
+	display: flex;
+	position: absolute;
+	width: 400px;
+	height: 1000px;
+}
+
+.a1 {
+position: absolute;
+left: -200px;
+top: 350px;
+}
+
+.a2{
+	position: absolute;
+right: -200px;
+top: 350px;
+}
+
+.a3 {
+	position: absolute;
+left: -200px;
+top: 800px;
+}
+
+.a4 {
+	position: absolute;
+right: -200px;
+top: 800px
+}
+
+.button_akcii {
+	left: 70px;
+	bottom: 50px;
+}
+
+.gallery {
+	width: 400px;
+}
+
+.gallery_main {
+	width: 400px;
+}
+
+footer {
+	min-width: 220vw;
+}
+.foot_content {
+	width: 1000px;
+}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+	/* */
+}
