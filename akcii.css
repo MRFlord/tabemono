@@ -11,7 +11,7 @@ html, body {padding:0; margin:0;height: 100%;}
 
 body {
 	background-image: url(image/bg_body2.png);
-
+	min-width: 1300px;
 }
 
 header {
