@@ -118,7 +118,6 @@ nav {
 }
 .content {
 	height: 1100px;
-
 }
 
 .menu_text {
@@ -204,7 +203,8 @@ border: 3px solid red;
 
 .menu_chapter {
 	position: absolute;
-	
+	right: -1px;
+	bottom: 1px;
 	transition:all 0.5s ease;
 }
 
@@ -836,6 +836,8 @@ min-height: 2750px;
 	height: 350px;
 	width: 350px;
 	overflow: hidden;
+	border-radius: 50%;
+	transition: 0.2s;
 	left: 210px;;
 	top: 50px;
 }
@@ -1019,7 +1021,6 @@ top: 225px;
 }
 
 .poke {
-	display: flex;
 	position:absolute;
 	background: cyan;
 	height: 350px;
@@ -1031,7 +1032,6 @@ top: 225px;
 	margin: 0 auto;
 }
 .holod {
-		display: flex;
 	position: absolute;
 		left: 210px;;
 	background: cyan;
@@ -1070,7 +1070,6 @@ top: 225px;
 	top: 1250px;
 }
 .goryach {
-		display: flex;
 	position: absolute;
 		left: 130px;
 	background: cyan;
@@ -1083,7 +1082,6 @@ top: 225px;
 	top: 1650px;
 }
 .salat {
-		display: flex;
 	position: absolute;
 	background: cyan;
 	height: 350px;
@@ -1096,7 +1094,6 @@ top: 225px;
 		top: 2050px;
 }
 .desert {
-		display: flex;
 	position: absolute;
 	height: 350px;
 	width: 350px;
@@ -1214,7 +1211,6 @@ display: none;
 }
 .content {
 		min-width: 1000px;
-
 }
 .preview_img {
 	max-width: 250px;
@@ -1227,10 +1223,10 @@ display: none;
 
 
 .menu_block {
-	display: flex;
+	position: relative;
 	max-width: 720px;
 	min-height: 2750px;
-	justify-content: center;
+	margin: 0 auto;
 }
 
 .menu_chapter {
@@ -1322,14 +1318,7 @@ display: flex;
 		top: 2450px;
 }
 
-.menu_photo {
-	height: 200px;
-	width: 300px;
-	transition: all 0.5s ease;
-	overflow: hidden;
-	border-radius: 50%;
-	margin: 0 auto;
-}
+
 .info_text {
 
 	width: 550px;
