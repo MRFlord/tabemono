@@ -535,6 +535,7 @@ height: 270px;
 	.wrapper{
 		max-width: 770px;
 			margin: 0 auto;
+		min-height: 1700px;
 	}
 
 	.title {
