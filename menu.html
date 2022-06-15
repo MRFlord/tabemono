@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-		<meta name="viewport" content="width=1300">
+	<meta name="viewport" content="width=device-width">
 	<title>Меню "Табэмоно"</title>
 	<link rel="stylesheet" href="menu.css">
 	<link rel="icon" href="image/лого.png">
@@ -40,6 +40,7 @@
 	</header>
 
 <!-- главное меню -->
+	<div class="wrapper">
 	<nav>
 		<a href="menu.html" class="menu">МЕНЮ</a>
 		<a href="akcii.html" class="menu">АКЦИИ</a>
@@ -49,13 +50,13 @@
 
 
 <!-- контент -->
-	<div class="wrapper">
 	<div class="content">
 	<div class="menu_text"><h1 class="title">
 		МЕНЮ
-	</h1></div>
+	</h1>
+</div>
 	<div class="menu_block">
-		<div class="menu_img">
+		
 			<div class="menu_photo poke">
 				<img src="image/poke.webp"  class="menu_chapter">
 				<div class="chapter_poke"><p class="poke_text">ПОКЕ</p></div>
@@ -72,6 +73,8 @@
 				<img src="image/sypi.webp"  class="menu_chapter">
 				<div class="chapter_sypi"><p class="sypi_text">СУПЫ</p></div>
 			</div>
+
+
 			<div class="menu_photo goryach">
 				<img src="image/goryach.webp"  class="menu_chapter">
 				<div class="chapter_goryach"><p class="goryach_text">ГОРЯЧИЕ БЛЮДА</p></div>
@@ -85,14 +88,18 @@
 				<div class="chapter_desert"><p class="desert_text">ДЕСЕРТЫ</p></div>
 			</div>
 		</div>
-	</div>
+</div>
 	</div>
 
 <!-- подвал -->
 
 
-	<footer>
+		<footer>
 		<div class="foot_content">
+			<div class="foot_body">
+			<div class="foot_column">
+				<div class="foot_item">
+					
 		<div class="time">
 		<p>Режим работы:<br>
 			Вс - Чт 12:00-24:00<br>
@@ -106,14 +113,19 @@
 			e-mail: tabemono@gmail.com
 		</p>
 		</div>
-		<div class="logo2">
-			<img src="image/лого.png" class="logo_foot">
-		</div>	
-		<div class="cop">
-			<p>
-				Ресторан «Табемоно».
-			</p>
 		</div>
+		</div>
+		
+			<div class="foot_column">
+				<div class="foot_item">
+		<div class="logo2">
+					<img src="image/лого.png" class="logo_foot">
+				</div>	
+				<div class="cop">
+					<p>
+						Ресторан «Табемоно».
+					</p>
+				</div>
 		<div class="soc_footer">
 				<div class="twitter2">
 					<a href="https://twitter.com/MRF_FP" target="_blank">
@@ -130,9 +142,12 @@
 						<img src="image/insta_white.png" class="soc2 inst">
 					</a>
 			</div>
+			</div>
+		</div>
+		</div>
 		</div>
 		</div>
 	</footer>
-	</div>
+	
 </body>
 </html>
