@@ -132,13 +132,12 @@ nav {
 }
 /*поля ввода*/
 
-.bron_box {
+.form {
 display: flex;
 justify-content: center;
 position: relative;
 align-items: center;
 top: 20px;
-background: cyan;
 width: 360px;
 height: 920px;
 margin: 0 auto;
@@ -163,6 +162,23 @@ margin: 0 auto;
 	box-shadow: 0 4px 16px #ccc;
 }
 
+.bron_form::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:rgba(51, 51, 51, 0.9) url(image/35771931234507.564a1d2403b3a.gif) center / 100px no-repeat;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.bron_form._sending::after{
+	opacity: 1;
+	visibility: visible;
+}
+
 .name {
 	display: flex;
 	position: absolute;
@@ -176,6 +192,10 @@ margin: 0 auto;
 	border: none;
 	font-size: 26px;
 	text-align: center;
+}
+
+.form_input._error {
+	box-shadow: 0 0 15px red;
 }
 
 .surname {
@@ -268,7 +288,13 @@ margin: 0 auto;
 }
 
 .deal {
-	display: flex;
+
+	width: 216px;
+	height: 50px;
+}
+
+button {
+		display: flex;
 	position: absolute;
 	width: 216px;
 	height: 50px;
@@ -276,9 +302,11 @@ margin: 0 auto;
 	justify-content: center;
 	left: 80px;
 	transition: 0.5s;
+	border: none;
+	background: none;
 }
 
-.deal:hover {
+button:hover {
 transform: scale(1.1);
 }
 
@@ -407,75 +435,7 @@ footer	{
 .content {
 }
 
-.akcii {
-	display: flex;
-	max-width: 1300px;
-	min-height: 3000px;
-	margin: 0 auto;
-	justify-content: center;
 
-}
-
-.akc1 {
-	position: static;
-	display: flex;
-	top: 25px;
-	width: 500px;
-	height: 700px;
-	border: 1px solid red;
-	border-radius: 10px;
-	box-shadow: 0 1px 14px #ccc;
-	margin-top: 25px;
-
-}
-.akc2 {
-		position: static;
-	display: flex;
-	top: 875px;
-	width: 500px;
-	height: 700px;
-		border: 1px solid red;
-	border-radius: 10px;
-	box-shadow: 0 1px 14px #ccc;
-	margin-top: 25px;
-}
-.akc3 {
-		position: static;
-	display: flex;
-
-	width: 500px;
-	height: 700px;
-		border: 1px solid red;
-	border-radius: 10px;
-	box-shadow: 0 1px 14px #ccc;
-	margin-top: 25px;
-}
-.akc4 {
-		position: static;
-	display: flex;
-		width: 500px;
-	height: 700px;
-		border: 1px solid red;
-	border-radius: 10px;
-	box-shadow: 0 1px 14px #ccc;
-	margin-top: 25px;
-}
-
-.page_akcii {
-	position: static;
-	display: flex;
-	width:498px ;
-	height: 150px;
-	background: gold;
-	justify-content: center;
-	align-items: center;
-	font-size: 20px;
-	font-weight: bold;
-	color: white;
-	margin-top: 450px;
-	text-align: center;
-	box-shadow: 0 1px 14px #ccc;
-}
 
 .text {
 	width: 300px;
@@ -912,13 +872,7 @@ body {
 		max-width: 320px;
 		margin: 0 auto;
 	}
-	.preview_img {
-	max-width: 200px;
-	max-height: 100px;
-	border: 5px solid #2b6ca3;
-	align-items: center;
-	margin: 50px auto;
-}
+
 footer {
 	min-width: 400px;
 	}
