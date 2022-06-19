@@ -6,6 +6,7 @@
 	<title>Бронирование в "Табэмоно"</title>
 	<link rel="stylesheet" href="bron.css">
 	<link rel="icon" href="image/лого.png">
+
 </head>
 <body>
 	<!-- шапка -->
@@ -52,13 +53,13 @@
 
 
 	<div class="content">
-		<div class="bron_box">
-			<img src="image/бронирование.png"  class="bron_fon">
-			<form action="#" method="post" name="bron" class="bron_form">
-				<input type="text" name="name" class="name">
-				<input type="text" name="surname" class="surname">
-				<input type="date" name="surname" class="date">
-				<select name="select" id="" class="select_time">
+		<div class="form">
+			<img src="image/бронирование.png"  class="bron_fon ">
+			<form action="#" class="bron_form" id="form">
+				<input type="text" name="name" class="name _req form_input">
+				<input type="text" name="surname" class="surname _req form_input">
+				<input type="date" name="date" class="date _req form_input">
+				<select name="select_time" id="" class="select_time">
 					<option value="1" class="option">12:00</option>
 					<option value="2" class="option">13:00</option>
 					<option value="3" class="option">14:00</option>
@@ -72,7 +73,7 @@
 					<option value="11" class="option">22:00</option>
 					<option value="12" class="option">23:00</option>
 				</select>
-				<select name="select" id="" class="select_person">
+				<select name="select_person" id="" class="select_person">
 					<option value="1" class="option">1</option>
 					<option value="2" class="option">2</option>
 					<option value="3" class="option">3</option>
@@ -82,14 +83,18 @@
 				<textarea name="textarea" id="" cols="30" rows="10" class="tips">
 				</textarea>
 				<div class="checkbox">
-				<input type="checkbox" class="kids" id="kids1">
+				<input type="checkbox" name="check_kids"class="kids " id="kids1">
 				<label for="kids1" class="label">Есть дети</label>
 				</div>
+				<button type="submit">
 				<img src="image/забронь.png" class="deal">
+			</button>
 			</form>
 		</div>
 	</div>
+	<script src="script.js"></script>
 </div>
+
 <!-- подвал -->
 
 
