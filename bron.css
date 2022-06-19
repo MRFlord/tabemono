@@ -172,6 +172,7 @@ margin: 0 auto;
 	background:rgba(51, 51, 51, 0.9) url(image/35771931234507.564a1d2403b3a.gif) center / 100px no-repeat;
 	opacity: 0;
 	visibility: hidden;
+	transition: all 0.5s ease 0s;
 }
 
 .bron_form._sending::after{
@@ -288,7 +289,6 @@ margin: 0 auto;
 }
 
 .deal {
-
 	width: 216px;
 	height: 50px;
 }
@@ -306,8 +306,13 @@ button {
 	background: none;
 }
 
+.deal:hover {
+	cursor: pointer;
+}
+
 button:hover {
 transform: scale(1.1);
+cursor: pointer;
 }
 
 /*футер*/
@@ -744,16 +749,26 @@ footer	{
 }
 @media (max-width: 460px) {
 	.wrapper{
-		min-width: 1000px;
+		min-width: 460px;
 		margin: 0 auto;
+	}
+
+	nav {
+		min-width: 460px;
 	}
 	.menu {
 		text-decoration: none;
 		color: white;
-		min-width: 250px;
-		font-size: 16px;
+		min-width: 115px;
+		font-size: 14px;
 }
-
+.preview_img {
+	max-width: 300px;
+	max-height: 200px;
+	border: 5px solid #2b6ca3;
+	align-items: center;
+	margin: 50px auto;
+}
 
 .info_text {
 
@@ -764,7 +779,7 @@ footer	{
 
 footer	{
 	max-height: 100px;
-	min-width: 1000px;
+	min-width: 460px;
 	background: #e99f86;
 	display: flex;
 	margin: 0 auto;
@@ -854,7 +869,7 @@ header {
 	background-repeat: no-repeat;
 	position: relative;
 	height: 200px;
-	min-width: 1000px;
+	min-width: 460px;
 	border-top: 3px solid orange;
 	margin: 0px auto;
 	
@@ -872,8 +887,12 @@ body {
 		max-width: 320px;
 		margin: 0 auto;
 	}
-
-footer {
-	min-width: 400px;
-	}
+	.preview_img {
+	max-width: 200px;
+	max-height: 100px;
+	border: 5px solid #2b6ca3;
+	align-items: center;
+	margin: 50px auto;
 }
+
+	}
