@@ -749,26 +749,20 @@ footer	{
 }
 @media (max-width: 460px) {
 	.wrapper{
-		min-width: 460px;
+		min-width: 320px;
 		margin: 0 auto;
 	}
 
 	nav {
-		min-width: 460px;
+		min-width: 320px;
 	}
 	.menu {
 		text-decoration: none;
 		color: white;
-		min-width: 115px;
+		min-width: 80px;
 		font-size: 14px;
 }
-.preview_img {
-	max-width: 300px;
-	max-height: 200px;
-	border: 5px solid #2b6ca3;
-	align-items: center;
-	margin: 50px auto;
-}
+
 
 .info_text {
 
@@ -869,7 +863,7 @@ header {
 	background-repeat: no-repeat;
 	position: relative;
 	height: 200px;
-	min-width: 460px;
+	min-width: 320px;
 	border-top: 3px solid orange;
 	margin: 0px auto;
 	
