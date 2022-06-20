@@ -726,10 +726,10 @@ display: none;
 @media (max-width: 506px){
 
 	header {
-		min-width: 485px;
+		max-width: 485px;
 	}
 	.wrapper{
-		min-width: 485px;
+		max-width: 485px;
 		margin: 0 auto;
 	}
 
@@ -749,7 +749,7 @@ footer	{
 }
 @media (max-width: 460px) {
 	.wrapper{
-		max-width: 460px;
+		min-width: 485px;
 		margin: 0 auto;
 	}
 	.menu {
@@ -869,7 +869,7 @@ header {
 	background-repeat: no-repeat;
 	position: relative;
 	height: 200px;
-	max-width: 460px;
+	min-width: 485px;
 	border-top: 3px solid orange;
 	margin: 0px auto;
 	
